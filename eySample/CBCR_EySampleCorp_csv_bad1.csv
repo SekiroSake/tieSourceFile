@@ -1,0 +1,9 @@
+// Comment line starts with //.   Any blank line will be ignored as well.,,,,,,,,,,,,,,,,,,,,
+// CBCR Header record. The doc has one header record.,,,,,,,,,,,,,,,,,,,,
+CBCR_Header,name,code,description,reportingEntityCode,currencyCode,resCountryCode,accountingStandard,reportingPeriod,,,,,,,,,,,,
+,EY Sample Corp,EySampleCorp,"A sample CBCR report that government gets from its taxpayer, constructed by EY",RU=03389,USD,US,US GAAP,12/31/2014,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+// CBCR_Entity records. One record for each entity included in the CBCR report,,,,,,,,,,,,,,,,,,,,
+CBCR_Entity,name,entityCode,description,taxIdNum,incorpCountryCode,otherEntityInfo,resCountryCode,idNum,isPermanentEstablishment,addrLegalType,addrCountryCode,addrFreeText,addrStreet,addrBuildingIdentifier,addrSuiteIdentifier,addrFloorIdentifier,addrPOB,addrPostCode,addrCity,addrCountrySubentity
+,Demo Entity 1,RU=03389,Demo Entity 1,RU=03389,AR,,AR,,badTest,,AR,,,,,,,,,
+,Demo Entity 2,RU=04054,Demo Entity 2,RU=04054,AR,,AR,,0,,AR,,,,,,,,,
